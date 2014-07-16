@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <prep>
+    <assembly>
+      PUSHW[ ]  /* 1 value pushed */
+      511
+      SCANCTRL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SCANTYPE[ ]
+      SVTCA[0]
+      MPPEM[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      1 1
+      INSTCTRL[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      70 6
+      CALL[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      16
+      EIF[ ]
+      MPPEM[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      GT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      128
+      EIF[ ]
+      SCVTCI[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      CALL[ ]
+      NOT[ ]
+      IF[ ]
+      SVTCA[0]
+      PUSHB[ ]  /* 1 value pushed */
+      4
+      DUP[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CALL[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      5
+      DUP[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      4 50 2
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CALL[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      DUP[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      4 17 2
+      CALL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CALL[ ]
+      WCVTP[ ]
+      SVTCA[1]
+      PUSHB[ ]  /* 1 value pushed */
+      7
+      DUP[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      3
+      CALL[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      DUP[ ]
+      RCVT[ ]
+      PUSHW[ ]  /* 3 values pushed */
+      7 32767 2
+      CALL[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      3 70
+      SROUND[ ]
+      CALL[ ]
+      WCVTP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      9
+      DUP[ ]
+      RCVT[ ]
+      PUSHB[ ]  /* 3 values pushed */
+      8 62 2
+      CALL[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      3 70
+      SROUND[ ]
+      CALL[ ]
+      WCVTP[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      CALL[ ]
+    </assembly>
+  </prep>
+
+</ttFont>
